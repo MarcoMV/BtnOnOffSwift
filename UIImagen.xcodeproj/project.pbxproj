@@ -13,6 +13,8 @@
 		C1695BFE1B218F2500C1199F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C1695BFD1B218F2500C1199F /* Images.xcassets */; };
 		C1695C011B218F2500C1199F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C1695BFF1B218F2500C1199F /* LaunchScreen.xib */; };
 		C1695C0D1B218F2500C1199F /* UIImagenTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1695C0C1B218F2500C1199F /* UIImagenTests.swift */; };
+		C1695C1B1B2191A100C1199F /* app.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C1695C191B2191A100C1199F /* app.jpg */; };
+		C1695C1C1B2191A100C1199F /* wal.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C1695C1A1B2191A100C1199F /* wal.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,8 @@
 		C1695C061B218F2500C1199F /* UIImagenTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UIImagenTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C1695C0B1B218F2500C1199F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C1695C0C1B218F2500C1199F /* UIImagenTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImagenTests.swift; sourceTree = "<group>"; };
+		C1695C191B2191A100C1199F /* app.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = app.jpg; sourceTree = "<group>"; };
+		C1695C1A1B2191A100C1199F /* wal.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = wal.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +81,7 @@
 		C1695BF31B218F2500C1199F /* UIImagen */ = {
 			isa = PBXGroup;
 			children = (
+				C1695C181B2191A100C1199F /* recursos */,
 				C1695BF61B218F2500C1199F /* AppDelegate.swift */,
 				C1695BF81B218F2500C1199F /* ViewController.swift */,
 				C1695BFA1B218F2500C1199F /* Main.storyboard */,
@@ -110,6 +115,15 @@
 				C1695C0B1B218F2500C1199F /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C1695C181B2191A100C1199F /* recursos */ = {
+			isa = PBXGroup;
+			children = (
+				C1695C191B2191A100C1199F /* app.jpg */,
+				C1695C1A1B2191A100C1199F /* wal.jpg */,
+			);
+			path = recursos;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -195,6 +209,8 @@
 				C1695BFC1B218F2500C1199F /* Main.storyboard in Resources */,
 				C1695C011B218F2500C1199F /* LaunchScreen.xib in Resources */,
 				C1695BFE1B218F2500C1199F /* Images.xcassets in Resources */,
+				C1695C1C1B2191A100C1199F /* wal.jpg in Resources */,
+				C1695C1B1B2191A100C1199F /* app.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

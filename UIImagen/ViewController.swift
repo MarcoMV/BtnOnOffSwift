@@ -10,9 +10,23 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var contenedorImg: UIImageView!
+    @IBOutlet weak var miSwitch: UISwitch!
+    @IBAction func procesar(sender: AnyObject) {
+        
+        if miSwitch.on {
+            println("Prendido")
+            contenedorImg.image = UIImage(named: "app.jpg")
+        }
+        else {
+            println("Apagado")
+            contenedorImg.image = UIImage(named: "wal.jpg")
+        }
+    }
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
+        contenedorImg.image = UIImage(named: "app.jpg")
     }
 
     override func didReceiveMemoryWarning() {
